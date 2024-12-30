@@ -31,7 +31,7 @@ public class Sign
             }
             if(i % width == 0 && i != message.length())
             {
-                s+=";";
+                s+= ";";
             }
         }
         return s;

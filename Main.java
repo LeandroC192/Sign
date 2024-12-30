@@ -27,5 +27,11 @@ public class Main
         System.out.println(x);
         str = sign4.getLines();
         System.out.println(str);
+
+        Sign sign5 = new Sign("AB_CD_EF", 2);
+        x = sign5.numberOfLines();
+        System.out.println(x);
+        str = sign5.getLines();
+        System.out.println(str);
     }
 }
